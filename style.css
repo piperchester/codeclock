@@ -1,0 +1,22 @@
+body {
+	background-color: #006464;
+	font-family: 'Roboto Condensed', sans-serif
+}
+h1 {
+	color: white;
+	text-align: center;
+	margin-bottom: 50px;
+}
+div {
+
+}
+canvas { 
+	background:#5CCCCC; 
+	width:250px; 
+	height:400px 
+}
+
+#codeDay {
+	width: 50%;
+	margin: 0 auto
+}
