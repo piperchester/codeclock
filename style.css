@@ -1,22 +1,26 @@
 body {
 	background-color: #006464;
-	font-family: 'Roboto Condensed', sans-serif
+	font-family: 'Roboto Condensed', sans-serif;
+	color: white;
 }
 h1 {
-	color: white;
 	text-align: center;
 	margin-bottom: 50px;
 }
-div {
 
+a {
+	text-decoration: none;
 }
-canvas { 
-	background:#5CCCCC; 
-	width:250px; 
-	height:400px 
+
+#recorder{
+	text-align: center;
+	margin: 0 auto;
+	width: 50%;
+	margin-bottom: 30px;
 }
 
 #codeDay {
+	background-color: orange;
 	width: 50%;
 	margin: 0 auto
 }

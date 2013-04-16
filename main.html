@@ -9,9 +9,11 @@
 </head>
 <body>
 	<h1>Welcome to Code Clock!</h1>
-	<div id="codeDay">
-		<canvas id="myCanvas">Your browser does not support the HTML5 canvas tag.
-		</div>
-	</canvas>
+	<div id="recorder">
+		<label for="hours">Number of Hours:</label>
+		<input name="filename" id="filename" type="text">
+		<a id="record_button" onclick="recordHours();" href="javascript:void(0);" title="Record">Enter!</a>
+	</div>
+	<div id="codeDay"></div>
 </body>
 </html>
