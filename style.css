@@ -20,6 +20,8 @@ a {
 }
 
 #codeDay {
+	text-align: center;
+	font-size: 300%;
 	background-color: orange;
 	width: 50%;
 	margin: 0 auto
