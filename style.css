@@ -23,6 +23,7 @@ a {
 	text-align: center;
 	font-size: 300%;
 	background-color: orange;
+	opacity: 0;
 	width: 50%;
 	margin: 0 auto
 }
