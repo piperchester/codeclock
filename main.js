@@ -13,7 +13,7 @@
     hours = input.value;
     var bar = document.getElementById('codeDay');
     if (hours) {
-        var heightToChange = input.value * 100;
+        var heightToChange = input.value * 50;
         if (heightToChange > 1000){
             heightToChange = 1000;
         }
@@ -28,14 +28,14 @@
 
 function animate(heightToChange){
   $("#codeDay").animate({
-    marginTop: "-300px",
-    width: "20%",
+    marginTop: "-100px",
+    width: "10%",
     height: heightToChange,
     opacity: 1,
     }, 500 );
 
   $("#recorder").animate({
-    opacity: 0
+    marginTop: "-200px"
     }, 500);
 
   $(".title").animate({
@@ -44,5 +44,5 @@ function animate(heightToChange){
 }
 
 function assignHours(divToAssign, hours){
-    document.getElementById(divToAssign).innerHTML = hours + " Hours!";
+    document.getElementById(divToAssign).innerHTML = hours;
 }
