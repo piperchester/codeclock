@@ -3,15 +3,34 @@ body {
 	font-family: 'Roboto Condensed', sans-serif;
 	color: white;
 }
-h1 {
+
+.title{
+	text-align: center;
 	color: #575757;
 	font-size: 600%;
-	text-align: center;
-	margin-bottom: 50px;
 }
 
 a {
 	text-decoration: none;
+}
+
+
+.sub{
+	margin-top: -50px;
+	color: #797979;
+	font-style: italic;
+	font-size: 100%;
+	margin-bottom: 50px;
+}
+
+input {
+	color: #CCC;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 350%;
+	width: 30%;
+	height: 100px;
+	border-radius: 10px;
 }
 
 #wrapper{
@@ -19,6 +38,7 @@ a {
 }
 
 #recorder{
+	color: #575757;
 	text-align: center;
 	margin: 0 auto;
 	width: 50%;
@@ -26,10 +46,12 @@ a {
 }
 
 #codeDay {
+	font-family: "Helvetica Neue";
+	padding-top: 10%;
 	text-align: center;
 	font-size: 300%;
-	background-color: orange;
+	background-color: #05EDFF;
 	opacity: 0;
-	width: 50%;
+	border-radius: 10px;
 	margin: 0 auto
 }
