@@ -9,22 +9,15 @@
 	<link href='gh-fork-ribbon.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<h1>Welcome to Code Clock!</h1>
-	<div class="github-fork-ribbon-wrapper right-bottom">
-		<div class="github-fork-ribbon">
-			<a href="https://github.com/piperchester/codeclock">Fork me on GitHub</a>
+	<div id="wrapper">
+		<h1>Welcome to Code Clock!</h1>
+		<div id="recorder">
+			<label for="hours">Number of Hours:</label>
+			<input name="filename" id="filename" type="text">
+			<a id="record_button" onclick="recordHours();" href="javascript:void(0);" title="Record">Enter!</a>
 		</div>
+		<div id="codeDay"></div>
+		<h1 id="time"></h1>
 	</div>
-
-	<?php
-	echo "My first PHP script!";
-	?>
-	<div id="recorder">
-		<label for="hours">Number of Hours:</label>
-		<input name="filename" id="filename" type="text">
-		<a id="record_button" onclick="recordHours();" href="javascript:void(0);" title="Record">Enter!</a>
-	</div>
-	<div id="codeDay"></div>
-	<h1 id="time"></h1>
 </body>
 </html>
