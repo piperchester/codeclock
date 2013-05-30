@@ -40,7 +40,7 @@ function animate(heightToChange){
 
   $(".title").animate({
     opacity: 0
-    }, 500);
+    }, 200);
 }
 
 function assignHours(divToAssign, hours){
